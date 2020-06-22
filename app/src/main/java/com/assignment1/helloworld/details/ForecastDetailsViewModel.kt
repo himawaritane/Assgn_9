@@ -33,3 +33,4 @@ class ForecastDetailsViewModel(args: ForecastDetailsFragmentArgs) : ViewModel() 
         )
     }
 }
+m 
