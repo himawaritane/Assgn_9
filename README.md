@@ -1,7 +1,6 @@
 # AD340 -5210
 # Loan Pham 
-Assignment #5
+Assignment #
 
-Create ForecastDetailsActivity
-Create an AppNavigator interface to communicate between LocationEntryFragment and MainActivity
-Create a CurrentForecastFragment
+In this assignment, you'll be tasked with making your app respond to different app states and configurations.  
+You'll accomplish this by adding loading states, empty states, and a tablet-specific layout.
