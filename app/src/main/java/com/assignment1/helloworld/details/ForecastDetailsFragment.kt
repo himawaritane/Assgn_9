@@ -26,7 +26,7 @@ class ForecastDetailsFragment : Fragment() {
     private val args: ForecastDetailsFragmentArgs by navArgs()
 
     private lateinit var viewModelFactory: ForecastDetaisViewModelFactory
-    private val viewModel = ForecastDetailsViewModel by viewModels(
+    private val viewModel: ForecastDetailsViewModel by viewModels(
         factoryProducer = { viewModelFactory }
     )
 
@@ -41,7 +41,7 @@ class ForecastDetailsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = inflater.inflate(inflater, container, false)
+        _binding = FragmentForecastDetailsBinding.inflate(inflater, container, false)
         viewModelFactory = ForecastDetaisViewModelFactory(args)
         tempDisplaySettingManager = TempDisplaySettingManager(requireContext())
 
